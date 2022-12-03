@@ -189,7 +189,9 @@ a:hover, a:active {
     margin-left: 5px;
 }
 
-
+#resultado-voto{
+    max-width: 200px;
+}
 
 
 .info-lateral {
