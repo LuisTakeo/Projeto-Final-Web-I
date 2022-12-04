@@ -30,7 +30,13 @@ a {
     padding: 15px 25px;   
 }
 
-#cabecalho a:hover, #cabecalho  a:active {
+#cabecalho a:hover,  
+#cabecalho a:active,
+body.home #cabecalho a#home,
+body.jogos #cabecalho a#jogos,
+body.animesMangas #cabecalho a#animesMangas,
+body.cosplays #cabecalho a#cosplays,
+body.sobre #cabecalho a#sobre {
     background: #FFF;
     color: rgba(211, 54, 54, 0.815);
 
@@ -60,6 +66,8 @@ a {
 #logo, #menu {
     padding: 25px;
 }
+
+
 
 /*conteudo*/
 
