@@ -282,6 +282,10 @@ ul {
     .postagem-sobre-texto{
         max-width: 300px;
     }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
 }
 
 
