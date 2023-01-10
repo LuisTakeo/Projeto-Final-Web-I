@@ -1,3 +1,5 @@
+/*Geral*/
+
 * {
     margin: 0;
     padding: 0;
@@ -114,6 +116,7 @@ a:hover, a:active {
 
 /*formatação imagens*/
 #area-post img, iframe {
+    width: 90%;
     max-width: 540px;
     padding: 0px;
     margin: 15px;
@@ -126,7 +129,8 @@ a:hover, a:active {
 /*formatação area post*/
 
 #area-post {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
 
 }
 .area-post-sobre {
@@ -224,9 +228,35 @@ ul {
     color: rgba(211, 54, 54, 0.815);
 }
 
+/*rodapé*/
+
+
+#rodape {
+    color: gray;
+    background: gainsboro;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+    margin-bottom: 0;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 924px) {
+    #area-lateral {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 10px
+    }
+}
+
 @media screen and (min-width: 500px) and (max-width: 768px){
     h1{
         font-size: 2.5em;
+    }
+    #area-post {
+        max-width: 400px;
+    
     }
     #area-lateral {
         width: 400px;
@@ -285,19 +315,4 @@ ul {
         width: 300px;
         height: 200px;
     }
-}
-
-
-
-
-/*rodapé*/
-
-
-#rodape {
-    color: gray;
-    background: gainsboro;
-    text-align: center;
-    padding: 15px;
-    margin: 10px auto;
-    margin-bottom: 0;
 }
